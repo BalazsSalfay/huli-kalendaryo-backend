@@ -23,7 +23,7 @@ public class UserModel {
     public UserModel() {
         this.clientToken = getRandomClientToken();
     }
-    
+
     public String getRandomClientToken() {
         secureRandom = new SecureRandom();
         random = new byte[256];
